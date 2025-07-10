@@ -1,0 +1,43 @@
+{
+  "name": "twixy-invite-bot",
+  "version": "2.0.0",
+  "description": "Продвинутый бот для управления беседами VK с функциями массового приглашения",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "nodemon src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pm2-start": "pm2 start src/main.js --name twixy-bot",
+    "pm2-restart": "pm2 restart twixy-bot",
+    "pm2-stop": "pm2 stop twixy-bot"
+  },
+  "keywords": [
+    "vk",
+    "bot",
+    "inviter",
+    "chat",
+    "manager"
+  ],
+  "author": "Twix234",
+  "license": "MIT",
+  "dependencies": {
+    "vk-io": "^4.10.0",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.2",
+    "pm2": "^5.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twix234/twixy-invite-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/twix234/twixy-invite-bot/issues"
+  }
+}
