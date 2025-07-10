@@ -21,7 +21,7 @@
   "author": "Twix234",
   "license": "MIT",
   "dependencies": {
-    "vk-io": "^4.10.0",
+    "vk-io": "^4.0.0-rc.40",
     "dotenv": "^16.3.1",
     "node-cron": "^3.0.2",
     "pm2": "^5.3.1"
